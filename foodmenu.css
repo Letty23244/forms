@@ -1,0 +1,48 @@
+nav{
+    font-size: 30px;
+    text-align: right;
+
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background-color:rgb(65, 64, 64);
+    margin-right: 30px;
+    top: 0%;
+    text-decoration: none;
+    color: orange;
+    top: 0%;
+    bottom: 0%;
+    position: relative;
+}
+nav a{
+    text-decoration: none;
+    text-align: right;
+    color: white;
+}
+nav h2{
+    text-align: left;
+    font-size: large;
+}
+span{
+    color: white;
+    font-size: 30px;
+}
+header{
+    text-align: left;
+    color: blue;
+}
+img{
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+p{
+    text-align: center;
+    margin-top: auto;
+    color: blue;
+}
+body{
+    background-color: black;
+}
+a:hover{
+    color: black;
+}

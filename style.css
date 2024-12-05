@@ -1,0 +1,37 @@
+img{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    margin-left: 80px;
+}
+header{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    
+}
+body{
+    background-color: black;
+}
+p{
+    color: white;
+    text-align: center;
+    top: 30px;
+    word-spacing: 5px;
+}
+
+.icon .a{
+    text-decoration: none;
+    color: black;
+
+}
+.icon{
+    margin-left: 7%;
+    color: black;
+    margin-right: -50%;
+    font-size: 50px;
+}
+.icon.hover{
+    color: lightblue;
+    
+}

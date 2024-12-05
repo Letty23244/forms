@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <form action=" container">
+        <fieldset>
+            <h1><BLOckquote>SURVEY FORM</BLOckquote></h1>
+           <br> <label for="lname">NAMES</label><br>
+          <br>  <input type="lname" id="name" name="iname"  placeholder="Enter your name"><br>
+           <br> <label for="email">EMAIL</label><br>
+           <br> <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+         <br>   <label for="age">AGE</label><br>
+           <br> <input type="age" id="age" name="age" placeholder="Enter your age"><br>
+           <br> <label for="contact">CONTACT</label><br>
+           <br> <input type="contact" id="contact" class="contact"  placeholder="Enter your contact"><br>
+            <div>
+                <p class="form group" required="">which option best describes your role</p>
+                <select name="role" id="dropdown" class="formcontrol">
+                    <option value="" disabled selected>select the current role</option>
+                    <option value="student">student</option>
+                    <option value="teacher">teacher</option>
+                    <option value="doctor">doctor</option>
+                    <option value="professor">professor</option>
+                </select>
+            </div>
+            <div>
+                <p class="quest"> how you came to know about this project</p>
+                <label for="">
+                    <input type="radio" name="source" value="friends" class="inputradio" checked>friends
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="tv-adds" class="inputradio" checked>tv-ads
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="socialmedia" class="inputradio" checked>socialmedia
+                </label>  <label for="">
+                    <input type="radio" name="source" value="newspaper" class="inputradio" checked>newspapers
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="others" class="inputradio" checked>others
+                </label>
+                <div>
+                    <p class="quest"> would you like to see self-improvement</p>
+                    <label for="">
+                        <input type="checkbox" name="prefer" value="front-end-dev">front-end-dev
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="prefer" value="app-end-dev">app-end-dev
+                    </label> <label for="">
+                        <input type="checkbox" name="prefer" value="back-end-dev">back-end-dev
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="prefer" value="others">others
+                    </label>
+                </div>
+                <div class="from-group">
+                    <p class="quest"> give us your feedback</p>
+                    <textarea name="feedback" id="feedback" cols="30" rows="5" class="textarea"
+                     placeholder=" enter your feedback">
+
+                    </textarea> <br>
+                   <br> <button type="submit"> submit</button><br>
+                   <button type="button" onclick="alert(hello)">clickme</button>
+
+
+                </div>
+
+            </div>
+
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
